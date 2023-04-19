@@ -6,4 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)<n:
+        a=False
+    else:
+        a=s[n-1]
+    return a
+s=str(input())
+n=int(input())
+print(main(s,n))
