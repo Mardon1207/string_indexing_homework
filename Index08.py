@@ -6,5 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.find("*")==-1:
+        a=False
+    else:
+        a=s.find("*")+1
+    return a
+s=str(input())
+print(main(s))
         
