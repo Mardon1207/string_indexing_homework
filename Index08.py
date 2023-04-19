@@ -9,7 +9,7 @@ def main(s):
     if s.find("*")==-1:
         a=False
     else:
-        a=s.find("*")+1
+        a=s.find("*")
     return a
 s=str(input())
 print(main(s))
