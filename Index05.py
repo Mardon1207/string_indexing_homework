@@ -4,8 +4,19 @@ def main(s):
     Args:
         s(str): parameter
     Returns:
-        int: answer
+        s.isdigit(): answer
     """
-    return s[0:3]
+    a=0
+    if s[0].isdigit():
+        a=a+1
+    if s[1].isdigit():
+        a=a+1
+    if s[2].isdigit():
+        a=a+1
+    if s[3].isdigit():
+        a=a+1
+    if s[4].isdigit():
+        a=a+1
+    return a
 s=str(input())
 print(main(s))
