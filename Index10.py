@@ -6,10 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    if s.isdigit():
-        a=int(s)
-    else:
-        a=-1
+    a=0
+    a=int(s)//10000+int(s)//1000%10+int(s)//100%10+int(s)//10%10+int(s)%10
     return a
 s=str(input())
 print(main(s))
